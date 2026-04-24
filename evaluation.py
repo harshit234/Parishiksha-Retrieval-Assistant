@@ -48,7 +48,7 @@ EVALUATION_QUESTIONS = [
 ]
 
 def evaluate_system():
-    """End-to-end evaluation of retrieval + generation."""
+    ""End-to-end evaluation of retrieval + generation.""
     retriever = Retriever()
     results = []
     
