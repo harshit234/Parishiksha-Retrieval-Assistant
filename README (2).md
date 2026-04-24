@@ -1,10 +1,5 @@
 # PariShiksha - Retrieval-Ready NCERT Study Assistant
 
-**Week 9 Mini-Project** | PG Diploma AI-ML & Agentic AI Engineering  
-**Status**: Base + Stretch + Advanced + Open (Teacher Mode) Complete
-
-## Completed Components
-
 ### Base (Required)
 - ✅ PDF Extraction (Chapters 8 & 9)
 - ✅ Tokenizer Comparison
@@ -59,4 +54,4 @@
 - Grounding: 19/20
 - Appropriate Refusals: 4/4
 
-**Ready for Submission** ✅
+
