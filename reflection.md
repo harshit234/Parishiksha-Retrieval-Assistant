@@ -1,5 +1,4 @@
 # reflection.md — Week 9 · Retrieval-Ready Study Assistant
-## PG Diploma in AI-ML & Agentic AI Engineering · Cohort 2
 
 ---
 
