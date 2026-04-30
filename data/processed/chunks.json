@@ -1,0 +1,386 @@
+[
+  {
+    "id": 0,
+    "content": "Chapter 8: Motion - Fundamental Definition\n\nWhat is Motion?\nMotion is the change in position of an object with respect to time and a reference point. An object is said to be in motion if its position changes continuously with respect to a fixed reference point.",
+    "token_count": 51,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "motion basics",
+      "content_type": "definition",
+      "page_start": 100,
+      "page_end": 100,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 1,
+    "content": "Characteristics of Motion:\n- Motion is relative: An object's motion depends on the reference frame chosen\n- Motion involves change in position: The object moves from one place to another\n- Motion requires time: Position change must occur over a period of time\n- Motion is described using parameters like distance, displacement, speed, and velocity",
+    "token_count": 65,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "motion characteristics",
+      "content_type": "list",
+      "page_start": 100,
+      "page_end": 101,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 2,
+    "content": "Types of Motion:\n1. Linear Motion: Motion along a straight line (e.g., a car moving on a straight road)\n2. Circular Motion: Motion along a circular path (e.g., a satellite orbiting Earth)\n3. Rotational Motion: Motion of an object spinning about its own fixed axis (e.g., Earth rotating)\n4. Oscillatory Motion: Repetitive back-and-forth motion about a mean position (e.g., pendulum)",
+    "token_count": 78,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "types of motion",
+      "content_type": "list",
+      "page_start": 101,
+      "page_end": 102,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 3,
+    "content": "Distance and Displacement:\n- Distance: The total length of path covered by an object during its motion. It is a scalar quantity (has magnitude only). SI unit: metre (m).\n- Displacement: The shortest straight-line distance between the initial and final position of an object, along with direction. It is a vector quantity. SI unit: metre (m).\n\nKey difference: Distance is always positive; displacement can be positive, negative, or zero.",
+    "token_count": 86,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "distance and displacement",
+      "content_type": "definition",
+      "page_start": 102,
+      "page_end": 103,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 4,
+    "content": "Speed and Velocity:\n- Speed: The rate at which an object covers distance. Speed = Distance / Time. It is a scalar quantity. SI unit: m/s.\n- Velocity: The rate of change of displacement. Velocity = Displacement / Time. It is a vector quantity. SI unit: m/s.\n- Average Speed = Total distance / Total time\n- Average Velocity = Total displacement / Total time\n- Uniform speed: equal distance in equal time intervals\n- Non-uniform speed: unequal distance in equal time intervals",
+    "token_count": 103,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "speed and velocity",
+      "content_type": "concept",
+      "page_start": 103,
+      "page_end": 104,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 5,
+    "content": "Acceleration:\nAcceleration is the rate of change of velocity of an object. It is a vector quantity.\n\nFormula: a = (v - u) / t\n\nWhere:\n- a = acceleration (m/s²)\n- v = final velocity (m/s)\n- u = initial velocity (m/s)\n- t = time taken (s)\n\nTypes:\n- Uniform acceleration: velocity changes by equal amounts in equal time intervals (e.g., free fall)\n- Non-uniform acceleration: velocity changes by unequal amounts in equal time intervals",
+    "token_count": 98,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "acceleration",
+      "content_type": "definition",
+      "page_start": 105,
+      "page_end": 106,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 6,
+    "content": "Equations of Motion (Kinematic Equations):\nThese equations relate initial velocity (u), final velocity (v), acceleration (a), time (t), and displacement (s) for uniformly accelerated motion.\n\n1st Equation: v = u + at\n2nd Equation: s = ut + (1/2)at²\n3rd Equation: v² = u² + 2as\n\nVariable definitions:\n- u = initial velocity (m/s)\n- v = final velocity (m/s)\n- a = acceleration (m/s²)\n- t = time (s)\n- s = displacement (m)\n\nCondition: Valid only for uniform (constant) acceleration in a straight line.",
+    "token_count": 116,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "equations of motion",
+      "content_type": "equation",
+      "page_start": 107,
+      "page_end": 109,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 7,
+    "content": "Worked Example – Equations of Motion:\nA car starts from rest and accelerates uniformly at 2 m/s² for 5 seconds. Find (a) its final velocity and (b) the distance covered.\n\nSolution:\nGiven: u = 0 m/s, a = 2 m/s², t = 5 s\n\n(a) Using v = u + at:\n    v = 0 + (2)(5) = 10 m/s\n\n(b) Using s = ut + (1/2)at²:\n    s = (0)(5) + (1/2)(2)(5²)\n    s = 0 + 25 = 25 m\n\nFinal velocity = 10 m/s; Distance covered = 25 m",
+    "token_count": 115,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "equations of motion",
+      "content_type": "example",
+      "page_start": 109,
+      "page_end": 110,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 8,
+    "content": "Graphical Representation of Motion:\n- Distance-Time Graph: Shows how distance changes with time.\n  • Straight line through origin → uniform speed\n  • Curved line → non-uniform speed\n  • Horizontal line → object at rest\n  • Slope of d-t graph = speed\n\n- Velocity-Time Graph: Shows how velocity changes with time.\n  • Straight horizontal line → uniform velocity (zero acceleration)\n  • Straight sloped line → uniform acceleration\n  • Area under v-t graph = displacement\n  • Slope of v-t graph = acceleration",
+    "token_count": 104,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "motion graphs",
+      "content_type": "concept",
+      "page_start": 110,
+      "page_end": 113,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 9,
+    "content": "Uniform Circular Motion:\nWhen an object moves along a circular path at a constant speed, it is said to be in uniform circular motion.\n\nKey points:\n- Speed is constant but velocity changes continuously (because direction changes)\n- Therefore, the object experiences acceleration (called centripetal acceleration)\n- Centripetal acceleration always points toward the centre of the circle\n- Examples: satellite orbiting Earth, a stone tied to a string and whirled in a circle",
+    "token_count": 88,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "uniform circular motion",
+      "content_type": "concept",
+      "page_start": 113,
+      "page_end": 115,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 10,
+    "content": "Chapter 8 – Newton's First Law of Motion (Law of Inertia):\n\nStatement: An object at rest remains at rest, and an object in motion continues to move with the same speed and in the same direction, unless acted upon by an unbalanced (net external) force.\n\nInertia: The tendency of an object to resist any change in its state of rest or motion.\n- Inertia of rest: tendency to remain at rest\n- Inertia of motion: tendency to remain in uniform motion\n- Inertia of direction: tendency to maintain direction of motion\n\nInertia is directly proportional to mass.",
+    "token_count": 112,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "newton's first law",
+      "content_type": "law",
+      "page_start": 115,
+      "page_end": 116,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 11,
+    "content": "Chapter 8 – Newton's Second Law of Motion:\n\nStatement: The rate of change of momentum of an object is proportional to the applied net force, and the change takes place in the direction of the force.\n\nMathematical form:\n  F = ma\n\nWhere:\n- F = net force applied (N)\n- m = mass of the object (kg)\n- a = acceleration produced (m/s²)\n\nDerivation from momentum:\n  F = Δp / Δt = m(v - u) / t = ma\n\nSI unit of force: Newton (N). 1 N = 1 kg·m/s²",
+    "token_count": 109,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "newton's second law",
+      "content_type": "law",
+      "page_start": 116,
+      "page_end": 117,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 12,
+    "content": "Chapter 8 – Newton's Third Law of Motion:\n\nStatement: For every action, there is an equal and opposite reaction. Forces always occur in pairs.\n\nKey points:\n- If object A exerts force F on object B (action), then object B exerts force -F on object A (reaction)\n- Action and reaction are equal in magnitude but opposite in direction\n- Action and reaction act on different objects (not on the same object)\n- They do NOT cancel each other\n\nExamples:\n- Recoil of a gun when fired\n- Rocket propulsion (exhaust gases expelled backward → rocket moves forward)\n- Swimming (hands push water backward → body moves forward)",
+    "token_count": 121,
+    "metadata": {
+      "source": "motion_ch8.txt",
+      "chapter": "Motion",
+      "chapter_number": 8,
+      "topic": "newton's third law",
+      "content_type": "law",
+      "page_start": 117,
+      "page_end": 118,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 13,
+    "content": "Chapter 9: Force and Laws of Motion – Definition of Force\n\nWhat is Force?\nForce is a push or pull exerted on an object that changes or tends to change its state of rest or motion, or its shape and size.\n\nProperties of Force:\n- Force is a vector quantity (has both magnitude and direction)\n- SI unit: Newton (N) — 1 N is the force needed to accelerate 1 kg mass by 1 m/s²\n- Forces can be balanced (net force = 0, no acceleration) or unbalanced (net force ≠ 0, causes acceleration)\n- Multiple forces on an object combine as vectors to produce a net (resultant) force",
+    "token_count": 112,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "force",
+      "content_type": "definition",
+      "page_start": 118,
+      "page_end": 119,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 14,
+    "content": "Contact Forces (Types of Forces – Part 1):\nThese forces require physical contact between objects.\n\n1. Applied Force: Force applied directly by one object on another (e.g., pushing a box)\n2. Friction Force: Force that opposes relative motion between surfaces in contact (acts opposite to direction of motion)\n3. Normal Force: Perpendicular (normal) contact force exerted by a surface on an object resting on it\n4. Tension: Force transmitted through a flexible connector like a rope, string, or cable when pulled taut\n5. Spring Force: Restoring force exerted by a compressed or stretched spring (Hooke's Law: F = -kx)",
+    "token_count": 112,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "contact forces",
+      "content_type": "list",
+      "page_start": 119,
+      "page_end": 120,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 15,
+    "content": "Non-Contact Forces (Types of Forces – Part 2):\nThese forces act at a distance without physical contact.\n\n1. Gravitational Force: Attractive force between any two objects with mass. Formula: F = Gm₁m₂/r²\n   - Always attractive, acts over infinite range\n2. Magnetic Force: Force between magnetic poles or between a magnet and a magnetic material\n   - Like poles repel, unlike poles attract\n3. Electrostatic Force: Force between electrically charged particles (Coulomb's Law)\n   - Like charges repel, unlike charges attract",
+    "token_count": 100,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "non-contact forces",
+      "content_type": "list",
+      "page_start": 120,
+      "page_end": 121,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 16,
+    "content": "Friction – Types and Characteristics:\nFriction is the force that opposes the relative motion (or tendency of motion) between two surfaces in contact.\n\nTypes:\n1. Static Friction (fₛ): Acts when surfaces are at rest relative to each other. Maximum static friction must be overcome to start motion.\n2. Kinetic (Sliding) Friction (fₖ): Acts when surfaces are sliding past each other. Constant value, less than maximum static friction.\n3. Rolling Friction: Acts when an object rolls on a surface. Much smaller than sliding friction.\n\nKey relationships:\n- fₛ(max) = μₛ × N\n- fₖ = μₖ × N\n(μ = coefficient of friction, N = normal force)\n\nFactors affecting friction: nature of surfaces (roughness) and normal force between them.",
+    "token_count": 146,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "friction",
+      "content_type": "concept",
+      "page_start": 122,
+      "page_end": 123,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 17,
+    "content": "Mass vs. Weight:\n- Mass (m): The total amount of matter contained in an object. It is a scalar quantity. Remains constant everywhere. SI unit: kilogram (kg).\n- Weight (W): The gravitational force acting on an object due to Earth's gravity. It is a vector quantity. Varies with location (less on Moon, zero in space). SI unit: Newton (N).\n\nRelationship: W = m × g\n  Where g = acceleration due to gravity = 9.8 m/s² (on Earth's surface)\n\nExample: A person with mass 50 kg has weight = 50 × 9.8 = 490 N on Earth.",
+    "token_count": 116,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "mass and weight",
+      "content_type": "concept",
+      "page_start": 123,
+      "page_end": 124,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 18,
+    "content": "Momentum:\nMomentum (p) is the quantity of motion possessed by a moving object. It is the product of an object's mass and its velocity.\n\nFormula: p = m × v\n\nProperties:\n- Momentum is a vector quantity (direction same as velocity)\n- SI unit: kg·m/s\n- A stationary object has zero momentum\n- Heavier or faster objects have greater momentum\n\nRelation to Newton's 2nd Law:\n  F = Δp / Δt = m(v - u) / t\n\nConservation of Momentum:\nIn a closed, isolated system (no external forces), the total momentum before and after collision remains constant.\n  p₁(initial) + p₂(initial) = p₁(final) + p₂(final)",
+    "token_count": 130,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "momentum and conservation",
+      "content_type": "concept",
+      "page_start": 124,
+      "page_end": 126,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 19,
+    "content": "Worked Example – Newton's Second Law:\nA force of 20 N acts on an object of mass 4 kg. What is the acceleration produced?\n\nSolution:\nGiven: F = 20 N, m = 4 kg\nUsing F = ma:\n  a = F / m = 20 / 4 = 5 m/s²\n\nThe object accelerates at 5 m/s² in the direction of the applied force.",
+    "token_count": 72,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "newton's second law",
+      "content_type": "example",
+      "page_start": 119,
+      "page_end": 119,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 20,
+    "content": "Worked Example – Conservation of Momentum:\nA gun of mass 5 kg fires a bullet of mass 0.05 kg at a velocity of 200 m/s. Find the recoil velocity of the gun.\n\nSolution:\nInitial total momentum = 0 (both at rest)\nBy conservation of momentum:\n  m_gun × v_gun + m_bullet × v_bullet = 0\n  5 × v_gun + 0.05 × 200 = 0\n  5 × v_gun = -10\n  v_gun = -2 m/s\n\nThe gun recoils at 2 m/s in the direction opposite to the bullet.",
+    "token_count": 105,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "conservation of momentum",
+      "content_type": "example",
+      "page_start": 126,
+      "page_end": 127,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 21,
+    "content": "Impulse:\nImpulse is the total effect of a force acting over a time interval. It equals the change in momentum of the object.\n\nFormula: J = F × Δt = Δp = m(v - u)\n\nSI unit: N·s or kg·m/s\n\nPractical importance:\n- A large force acting for a short time (e.g., bat hitting a ball) produces the same impulse as a small force over a long time\n- Airbags and padding increase collision time, reducing peak force on passengers",
+    "token_count": 90,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "impulse",
+      "content_type": "concept",
+      "page_start": 127,
+      "page_end": 128,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": true
+    }
+  },
+  {
+    "id": 22,
+    "content": "Applications of Newton's Laws in Real Life:\n\n1. Seatbelts and Airbags: Increase stopping time during a crash, reducing force on passengers (impulse-momentum theorem)\n2. Rocket Propulsion: Exhaust gases expelled backward → rocket thrust forward (Newton's 3rd law)\n3. Walking: We push the ground backward with our feet; ground pushes us forward (Newton's 3rd law)\n4. Braking of vehicles: Friction force decelerates the car (Newton's 1st law — inertia must be overcome)\n5. Sports: A cricket bat exerts force on ball; ball exerts equal force on bat (Newton's 3rd law)\n6. Pulley systems: Redirect and amplify force using Newton's laws\n7. Space travel: Orbital mechanics calculated using Newton's laws of motion and gravitation",
+    "token_count": 142,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "applications of newton's laws",
+      "content_type": "application",
+      "page_start": 128,
+      "page_end": 131,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  },
+  {
+    "id": 23,
+    "content": "Law of Inertia Applied to Force (Chapter 9 context):\nObjects tend to maintain their current state of motion. The amount of inertia is determined by mass:\n- A heavier object requires more force to produce the same acceleration as a lighter object\n- A truck is harder to stop than a bicycle moving at the same speed because it has greater inertia (larger mass → larger momentum)\n\nBalanced vs. Unbalanced Forces:\n- Balanced forces: Two or more forces whose resultant is zero. No change in motion (object stays at rest or continues at constant velocity).\n- Unbalanced forces: Net force is non-zero. Causes acceleration (change in speed or direction).",
+    "token_count": 121,
+    "metadata": {
+      "source": "force_ch9.txt",
+      "chapter": "Force and Laws of Motion",
+      "chapter_number": 9,
+      "topic": "inertia and balanced forces",
+      "content_type": "concept",
+      "page_start": 118,
+      "page_end": 120,
+      "textbook": "NCERT Science Class 9",
+      "has_formula": false
+    }
+  }
+]

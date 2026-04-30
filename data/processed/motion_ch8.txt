@@ -1,0 +1,32 @@
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an object is directly proportional to the net force applied on it and inversely proportional to its mass. Mathematically, F = ma, where F is force, m is mass, and a is acceleration.
+
+Third Law of Motion:
+For every action, there is an equal and opposite reaction. If object A exerts a force on object B, then object B exerts an equal force on object A in the opposite direction.
+
+Concepts of Motion:
+- Distance: The total path covered by an object
+- Displacement: The shortest distance between initial and final positions
+- Speed: The rate at which an object covers distance
+- Velocity: The rate of change of displacement
+- Acceleration: The rate of change of velocity
+
+Types of Motion:
+1. Linear Motion: Motion along a straight line
+2. Circular Motion: Motion along a circular path
+3. Rotational Motion: Motion about a fixed axis
+4. Oscillatory Motion: Repetitive back and forth motion
+
+Equations of Motion:
+- v = u + at
+- s = ut + (1/2)at²
+- v² = u² + 2as
+
+Where u is initial velocity, v is final velocity, a is acceleration, t is time, and s is displacement.
