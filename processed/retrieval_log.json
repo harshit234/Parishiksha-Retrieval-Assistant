@@ -1,0 +1,120 @@
+{
+  "retrieval_log": {
+    "version": "1.0",
+    "retriever": "BM25Okapi + chapter topic-boost (src/retrieval.py)",
+    "chunks_source": "data/processed/chunks.json",
+    "chunks_version": "v2",
+    "embed_model": "N/A — sparse BM25 only (dense not yet active)",
+    "top_k_logged": 1,
+    "evaluated_by": "manual",
+    "date": "2026-04-30",
+    "total_questions": 10,
+    "summary": {
+      "YES": 8,
+      "NO": 2,
+      "precision_at_1": 0.8
+    }
+  },
+  "results": [
+    {
+      "qid": 1,
+      "question": "What is motion?",
+      "top1_chunk_id": 0,
+      "top1_content_type": "definition",
+      "top1_topic": "motion basics",
+      "top1_snippet": "Chapter 8: Motion - Fundamental Definition\n\nWhat is Motion?\nMotion is the change in position of an object with respect to time and a reference point.",
+      "answer_present": "YES",
+      "notes": "BM25 correctly surfaces the dedicated definition chunk. Strong lexical overlap on 'motion'."
+    },
+    {
+      "qid": 2,
+      "question": "State and explain Newton's second law of motion.",
+      "top1_chunk_id": 11,
+      "top1_content_type": "law",
+      "top1_topic": "newton's second law",
+      "top1_snippet": "Chapter 8 – Newton's Second Law of Motion:\n\nStatement: The rate of change of momentum of an object is proportional to the applied net force...",
+      "answer_present": "YES",
+      "notes": "Exact law statement, F = ma derivation, and SI unit all present in top-1 chunk. Clean retrieval."
+    },
+    {
+      "qid": 3,
+      "question": "What is the difference between distance and displacement?",
+      "top1_chunk_id": 3,
+      "top1_content_type": "definition",
+      "top1_topic": "distance and displacement",
+      "top1_snippet": "Distance and Displacement:\n- Distance: The total length of path covered by an object... It is a scalar quantity.\n- Displacement: The shortest straight-line distance...",
+      "answer_present": "YES",
+      "notes": "Top-1 chunk dedicated to this exact concept including scalar/vector distinction and key difference note."
+    },
+    {
+      "qid": 4,
+      "question": "Write the three kinematic equations of motion and define each variable.",
+      "top1_chunk_id": 6,
+      "top1_content_type": "equation",
+      "top1_topic": "equations of motion",
+      "top1_snippet": "Equations of Motion (Kinematic Equations):\n1st Equation: v = u + at\n2nd Equation: s = ut + (1/2)at²\n3rd Equation: v² = u² + 2as\n\nVariable definitions: u = initial velocity...",
+      "answer_present": "YES",
+      "notes": "All three equations plus full variable glossary and validity condition are in this single chunk."
+    },
+    {
+      "qid": 5,
+      "question": "Define friction and explain its different types.",
+      "top1_chunk_id": 16,
+      "top1_content_type": "concept",
+      "top1_topic": "friction",
+      "top1_snippet": "Friction – Types and Characteristics:\nFriction is the force that opposes the relative motion (or tendency of motion) between two surfaces in contact.\nTypes:\n1. Static Friction...",
+      "answer_present": "YES",
+      "notes": "Chunk 16 is entirely dedicated to friction — definition, static/kinetic/rolling types, and coefficient formula all present."
+    },
+    {
+      "qid": 6,
+      "question": "What is momentum? State the law of conservation of momentum.",
+      "top1_chunk_id": 18,
+      "top1_content_type": "concept",
+      "top1_topic": "momentum and conservation",
+      "top1_snippet": "Momentum:\nMomentum (p) is the quantity of motion possessed by a moving object... Formula: p = m × v\n...Conservation of Momentum: In a closed, isolated system...",
+      "answer_present": "YES",
+      "notes": "Chunk 18 covers both momentum definition (p = mv) and the conservation law in one block. Correct top-1."
+    },
+    {
+      "qid": 7,
+      "question": "What types of forces act without physical contact between objects?",
+      "top1_chunk_id": 15,
+      "top1_content_type": "list",
+      "top1_topic": "non-contact forces",
+      "top1_snippet": "Non-Contact Forces (Types of Forces – Part 2):\nThese forces act at a distance without physical contact.\n1. Gravitational Force... 2. Magnetic Force... 3. Electrostatic Force...",
+      "answer_present": "YES",
+      "notes": "Direct match. 'Without physical contact' is verbatim in the chunk. BM25 term overlap is high."
+    },
+    {
+      "qid": 8,
+      "question": "How is weight calculated and how does it differ from mass?",
+      "top1_chunk_id": 17,
+      "top1_content_type": "concept",
+      "top1_topic": "mass and weight",
+      "top1_snippet": "Mass vs. Weight:\n- Mass (m): The total amount of matter... scalar... constant everywhere.\n- Weight (W): The gravitational force... W = m × g... Varies with location.",
+      "answer_present": "YES",
+      "notes": "Chunk 17 is purpose-built for this question. Formula W = mg and Earth g value both present."
+    },
+    {
+      "qid": 9,
+      "question": "What happens to the velocity of an object moving in a uniform circular path?",
+      "top1_chunk_id": 4,
+      "top1_content_type": "concept",
+      "top1_topic": "speed and velocity",
+      "top1_snippet": "Speed and Velocity:\n- Speed: The rate at which an object covers distance... scalar quantity.\n- Velocity: The rate of change of displacement... vector quantity.",
+      "answer_present": "NO",
+      "notes": "BM25 matched strongly on 'velocity' and returned the general speed/velocity chunk (id=4). The correct answer — that speed is constant but velocity direction changes continuously in circular motion — lives in chunk 9 (uniform circular motion). Topic-boost did not activate because neither 'motion' nor 'force' chapter penalty applied. FAILURE MODE: keyword collision; dense retrieval would fix this."
+    },
+    {
+      "qid": 10,
+      "question": "Calculate the recoil velocity of a 5 kg gun that fires a 0.05 kg bullet at 200 m/s.",
+      "top1_chunk_id": 12,
+      "top1_content_type": "law",
+      "top1_topic": "newton's third law",
+      "top1_snippet": "Chapter 8 – Newton's Third Law of Motion:\n...Examples:\n- Recoil of a gun when fired\n- Rocket propulsion...",
+      "answer_present": "NO",
+      "notes": "BM25 returned chunk 12 (Newton's 3rd law) because 'gun' and 'recoil' appear there as examples. The actual numerical worked solution — with conservation of momentum calculation — is in chunk 20. Chunk 12 only names the concept, not the calculation method. FAILURE MODE: retriever cannot distinguish 'mention of concept' vs 'worked solution'; re-ranking by content_type=example would help."
+    }
+  ]
+}
