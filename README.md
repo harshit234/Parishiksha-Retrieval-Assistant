@@ -299,11 +299,5 @@ These are the skills that separate engineers who demo from engineers who ship.
 - **NCERT Textbooks:** https://ncert.nic.in/textbook.php?iesc1=0-11
 - **LangChain Docs:** https://python.langchain.com/docs/
 - **Chroma Docs:** https://docs.trychroma.com/
-- **Week 9 v1 Repo:** [link to your v1 if separate repo]
-
----
 
 
-**Last updated:** May 3, 2026  
-**Version:** v2.0-wk10  
-**Status:** ✅ Ready for submission
