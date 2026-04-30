@@ -1,0 +1,218 @@
+{
+  "passage_comparison": [
+    {
+      "text": "The acceleration due to gravity is denoted by g.",
+      "gpt2_count": 11,
+      "gpt2_tokens": [
+        "The",
+        "\u0120acceleration",
+        "\u0120due",
+        "\u0120to",
+        "\u0120gravity",
+        "\u0120is",
+        "\u0120den",
+        "oted",
+        "\u0120by",
+        "\u0120g",
+        "."
+      ],
+      "bert_count": 10,
+      "bert_tokens": [
+        "the",
+        "acceleration",
+        "due",
+        "to",
+        "gravity",
+        "is",
+        "denoted",
+        "by",
+        "g",
+        "."
+      ],
+      "diff": 1
+    },
+    {
+      "text": "Example 1: A car moving with uniform velocity.",
+      "gpt2_count": 10,
+      "gpt2_tokens": [
+        "Example",
+        "\u01201",
+        ":",
+        "\u0120A",
+        "\u0120car",
+        "\u0120moving",
+        "\u0120with",
+        "\u0120uniform",
+        "\u0120velocity",
+        "."
+      ],
+      "bert_count": 10,
+      "bert_tokens": [
+        "example",
+        "1",
+        ":",
+        "a",
+        "car",
+        "moving",
+        "with",
+        "uniform",
+        "velocity",
+        "."
+      ],
+      "diff": 0
+    },
+    {
+      "text": "Newton's second law: Force = mass x acceleration",
+      "gpt2_count": 11,
+      "gpt2_tokens": [
+        "New",
+        "ton",
+        "'s",
+        "\u0120second",
+        "\u0120law",
+        ":",
+        "\u0120Force",
+        "\u0120=",
+        "\u0120mass",
+        "\u0120x",
+        "\u0120acceleration"
+      ],
+      "bert_count": 11,
+      "bert_tokens": [
+        "newton",
+        "'",
+        "s",
+        "second",
+        "law",
+        ":",
+        "force",
+        "=",
+        "mass",
+        "x",
+        "acceleration"
+      ],
+      "diff": 0
+    },
+    {
+      "text": "photosynthesis is a process in plants",
+      "gpt2_count": 7,
+      "gpt2_tokens": [
+        "photos",
+        "ynthesis",
+        "\u0120is",
+        "\u0120a",
+        "\u0120process",
+        "\u0120in",
+        "\u0120plants"
+      ],
+      "bert_count": 8,
+      "bert_tokens": [
+        "photos",
+        "##yn",
+        "##thesis",
+        "is",
+        "a",
+        "process",
+        "in",
+        "plants"
+      ],
+      "diff": -1
+    },
+    {
+      "text": "specific heat capacity of water is 4184 J/kg/K",
+      "gpt2_count": 13,
+      "gpt2_tokens": [
+        "specific",
+        "\u0120heat",
+        "\u0120capacity",
+        "\u0120of",
+        "\u0120water",
+        "\u0120is",
+        "\u01204",
+        "184",
+        "\u0120J",
+        "/",
+        "kg",
+        "/",
+        "K"
+      ],
+      "bert_count": 14,
+      "bert_tokens": [
+        "specific",
+        "heat",
+        "capacity",
+        "of",
+        "water",
+        "is",
+        "41",
+        "##8",
+        "##4",
+        "j",
+        "/",
+        "kg",
+        "/",
+        "k"
+      ],
+      "diff": -1
+    }
+  ],
+  "scientific_terms": [
+    {
+      "term": "velocity",
+      "gpt2_tokens": [
+        "vel",
+        "ocity"
+      ],
+      "bert_tokens": [
+        "velocity"
+      ]
+    },
+    {
+      "term": "acceleration",
+      "gpt2_tokens": [
+        "ac",
+        "celer",
+        "ation"
+      ],
+      "bert_tokens": [
+        "acceleration"
+      ]
+    },
+    {
+      "term": "work",
+      "gpt2_tokens": [
+        "work"
+      ],
+      "bert_tokens": [
+        "work"
+      ]
+    },
+    {
+      "term": "energy",
+      "gpt2_tokens": [
+        "energy"
+      ],
+      "bert_tokens": [
+        "energy"
+      ]
+    },
+    {
+      "term": "photosynthesis",
+      "gpt2_tokens": [
+        "photos",
+        "ynthesis"
+      ],
+      "bert_tokens": [
+        "photos",
+        "##yn",
+        "##thesis"
+      ]
+    }
+  ],
+  "summary": {
+    "avg_gpt2_tokens": 10.4,
+    "avg_bert_tokens": 10.6,
+    "bert_overhead_pct": 1.9,
+    "decision": "GPT-2 for chunk sizing; re.findall for BM25"
+  }
+}

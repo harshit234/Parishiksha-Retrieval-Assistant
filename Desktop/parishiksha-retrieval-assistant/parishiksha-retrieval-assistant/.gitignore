@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit these
+.env
+.env.*
+*.key
+
+# Chroma vectorstore (large binary files)
+data/processed/chroma_db/
+
+# Processed data outputs (regenerable)
+data/processed/chunks.json
+data/processed/*.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

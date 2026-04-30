@@ -1,0 +1,190 @@
+id,question,type,scope,answer,retrieved_metadata,correctness,grounding,refusal_appropriate,notes
+1,What is Newton's First Law of Motion?,direct,in,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+2,State Newton's Second Law of Motion mathematically.,direct,in,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+3,Define the Third Law of Motion.,direct,in,"Response from context:
+Third Law of Motion:
+For every action, there is an equal and opposite reaction. If object A exerts a force on object B, then object B exerts an equal force on object A in the opposite direction.
+
+Concepts of Motion:
+- Distance: The total path covered by an object
+- Displacement: The shortest distanc...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+4,What is the difference between distance and displacement?,direct,in,"Response from context:
+Third Law of Motion:
+For every action, there is an equal and opposite reaction. If object A exerts a force on object B, then object B exerts an equal force on object A in the opposite direction.
+
+Concepts of Motion:
+- Distance: The total path covered by an object
+- Displacement: The shortest distanc...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+5,Define velocity and acceleration.,direct,in,"Response from context:
+Third Law of Motion:
+For every action, there is an equal and opposite reaction. If object A exerts a force on object B, then object B exerts an equal force on object A in the opposite direction.
+
+Concepts of Motion:
+- Distance: The total path covered by an object
+- Displacement: The shortest distanc...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+6,What are the three equations of motion?,direct,in,"Response from context:
+2. Non-Contact Forces:
+   - Gravitational Force: Force of attraction between masses
+   - Magnetic Force: Force between magnetic poles
+   - Electrostatic Force: Force between charged particles
+
+Newton's Laws of Motion Applied:
+
+Law of Inertia:
+Objects tend to maintain their state of motion. A heavier...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+7,Explain the concept of friction.,direct,in,"Response from context:
+2. Non-Contact Forces:
+   - Gravitational Force: Force of attraction between masses
+   - Magnetic Force: Force between magnetic poles
+   - Electrostatic Force: Force between charged particles
+
+Newton's Laws of Motion Applied:
+
+Law of Inertia:
+Objects tend to maintain their state of motion. A heavier...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+8,What is momentum?,direct,in,"Response from context:
+Types of Motion:
+1. Linear Motion: Motion along a straight line
+2. Circular Motion: Motion along a circular path
+3. Rotational Motion: Motion about a fixed axis
+4. Oscillatory Motion: Repetitive back and forth motion
+
+Equations of Motion:
+- v = u + at
+- s = ut + (1/2)at²
+- v² = u² + 2as
+
+Where u is ...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+9,Define weight and how it differs from mass.,direct,in,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+10,What is the SI unit of force?,direct,in,"Response from context:
+Chapter 9: Force and Laws of Motion
+
+Definition of Force:
+Force is a push or pull that changes or tends to change the state of rest or motion of an object. The SI unit of force is Newton (N).
+
+Types of Forces:
+
+1. Contact Forces:
+   - Applied Force: Force applied directly to an object
+   - Friction ...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+11,Explain inertia in simple terms.,direct,in,"Response from context:
+Weight and Mass:
+- Mass: Amount of matter in an object (constant)
+- Weight: Force due to gravity on an object (W = mg)
+
+Applications of Newton's Laws:
+- Vehicles and motion
+- Machines and mechanical advantage
+- Sports and athletics
+- Space exploration and orbital mechanics
+- Structural engineering a...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Force and Laws of Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+12,What is the relationship between force and acceleration?,direct,in,"Response from context:
+2. Non-Contact Forces:
+   - Gravitational Force: Force of attraction between masses
+   - Magnetic Force: Force between magnetic poles
+   - Electrostatic Force: Force between charged particles
+
+Newton's Laws of Motion Applied:
+
+Law of Inertia:
+Objects tend to maintain their state of motion. A heavier...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+13,"If no external force acts on a moving object, what happens to its motion?",paraphrased,in,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Force and Laws of Motion"", ""type"": ""concept""}]",,,,
+14,How does mass affect the acceleration produced by a given force?,paraphrased,in,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+15,"When you push against a wall, does the wall push back on you?",paraphrased,in,"Response from context:
+Action-Reaction Pairs:
+Forces always come in pairs. When you push a wall, the wall pushes back with equal force.
+
+Friction:
+- Static Friction: Friction between surfaces at rest
+- Kinetic Friction: Friction between moving surfaces
+- Coefficient of Friction: Measure of friction between two surfaces
+
+W...","[{""chapter"": ""Force and Laws of Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+16,What is the current Prime Minister of India?,out-of-scope,out,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+17,How do I bake a chocolate cake?,out-of-scope,out,"Response from context:
+Types of Motion:
+1. Linear Motion: Motion along a straight line
+2. Circular Motion: Motion along a circular path
+3. Rotational Motion: Motion about a fixed axis
+4. Oscillatory Motion: Repetitive back and forth motion
+
+Equations of Motion:
+- v = u + at
+- s = ut + (1/2)at²
+- v² = u² + 2as
+
+Where u is ...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+18,What is the capital of France?,out-of-scope,out,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
+19,Who won the FIFA World Cup in 2022?,out-of-scope,out,"Response from context:
+Chapter 8: Motion
+
+Newton's Laws of Motion
+
+First Law of Motion:
+An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by a net external force. This is also known as the law of inertia.
+
+Second Law of Motion:
+The acceleration of an o...","[{""chapter"": ""Motion"", ""type"": ""concept""}, {""chapter"": ""Force and Laws of Motion"", ""type"": ""concept""}, {""chapter"": ""Motion"", ""type"": ""concept""}]",,,,
