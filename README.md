@@ -1,14 +1,11 @@
 # PariShiksha Study Assistant v2.0
 **Week 10 · Production-Grade RAG System for NCERT Class 9 Science**
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 > A retrieval-augmented generation (RAG) system that answers NCERT Science questions with strict grounding, refusal on out-of-scope queries, and source citation. Built for PariShiksha's pilot deployment across Tier-2/3 study centres.
 
 ---
 
-## 🎯 What's New in v2.0
+## What's New in v2.0
 
 **Upgrading from Week 9 v1 → Week 10 v2:**
 
@@ -22,11 +19,11 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 parishiksha-rag-v2/
-├── README.md                    ← you are here
+├── README.md                    
 ├── requirements.txt             ← pinned versions (chromadb==0.5.*)
 ├── .env.example                 ← API key placeholders
 ├── data/
@@ -39,7 +36,7 @@ parishiksha-rag-v2/
 │   ├── embeddings.py            ← NEW: Chroma persistence + retrieve()
 │   ├── generation.py            ← v2: strict prompt + {answer, sources, chunk_ids}
 │   ├── evaluation.py            ← 12-Q eval with 3-axis manual scoring
-│   └── tokenizer_compare.py     ← Week 9 artifact (unchanged)
+│   
 ├── outputs/
 │   ├── wk10_chunks.json         ← Stage 1: upgraded chunks
 │   ├── chunking_diff.md         ← Stage 1: v1→v2 comparison
@@ -55,14 +52,10 @@ parishiksha-rag-v2/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 
-```bash
-git clone https://github.com/YOUR_USERNAME/parishiksha-rag-v2.git
-cd parishiksha-rag-v2
-python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
@@ -105,7 +98,7 @@ python src/evaluation.py
 
 ---
 
-## 📊 Evaluation Results
+## Evaluation Results
 
 ### v2.0 Performance (12-Question Eval Set)
 
@@ -124,13 +117,9 @@ See `outputs/eval_scored.csv` for full results with per-question diagnosis.
 
 ---
 
-## 🎥 Demo
-
-**3-minute Loom walkthrough:** [Insert your Loom link here]
-
 Shows:
 1. Repo structure
-2. `ask()` running on 3 queries: in-scope ✅ / paraphrased ✅ / out-of-scope (refused) ⚠️
+2. `ask()` running on 3 queries: in-scope  / paraphrased  / out-of-scope (refused) 
 3. Eval table review
 
 ---
@@ -173,7 +162,7 @@ Answer:
 
 ---
 
-## 🐛 Known Limitations & Targeted Fix
+## Known Limitations & Targeted Fix
 
 ### Worst Failure (Pre-Fix)
 **Query:** "How does friction depend on the area of contact?"  
@@ -189,7 +178,7 @@ Answer:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```txt
 # Core
@@ -215,7 +204,7 @@ pandas
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐
@@ -256,7 +245,7 @@ pandas
 
 ---
 
-## 🧪 Extending to Stretch (Optional)
+## Extending to Stretch (Optional)
 
 If you completed Core and have time for Stretch enhancements:
 
@@ -291,24 +280,7 @@ python src/evaluation_ragas.py  # 30-Q golden set
 
 **Target:** Faithfulness ≥ 0.7, Context Precision ≥ 0.65
 
----
-
-## 📝 Submission Checklist
-
-Before submitting to GitHub Discussions:
-
-- [ ] All 6 evidence files present in `outputs/`
-- [ ] `reflection.md` completed with chunk_ids + eval row references
-- [ ] `README.md` has Loom link
-- [ ] `.env.example` present (no actual keys committed)
-- [ ] At least 8 meaningful git commits
-- [ ] Tagged `v1.0-wk9` and `v2.0-wk10`
-- [ ] Notebook/src runs on fresh clone with `.env` set
-- [ ] Loom recorded (3 min Core / 5 min Stretch)
-
----
-
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 By completing v2.0, you've practiced:
 
@@ -322,7 +294,7 @@ These are the skills that separate engineers who demo from engineers who ship.
 
 ---
 
-## 📚 References
+## References
 
 - **NCERT Textbooks:** https://ncert.nic.in/textbook.php?iesc1=0-11
 - **LangChain Docs:** https://python.langchain.com/docs/
@@ -331,29 +303,6 @@ These are the skills that separate engineers who demo from engineers who ship.
 
 ---
 
-## 📄 License
-
-MIT License — see `LICENSE` file.
-
----
-
-## 👤 Author
-
-**Your Name**  
-PG Diploma in AI-ML & Agentic AI Engineering · IIT Gandhinagar · Cohort 1  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
-
----
-
-## 🙏 Acknowledgments
-
-- **Faculty:** Anish Agarwal, Rajat Dangi, Akash Singh
-- **Teaching Assistants:** [TA names]
-- **Cohort peers** for env debugging support and eval question validation
-- **PariShiksha scenario design** by IIT Gandhinagar course team
-
----
 
 **Last updated:** May 3, 2026  
 **Version:** v2.0-wk10  
