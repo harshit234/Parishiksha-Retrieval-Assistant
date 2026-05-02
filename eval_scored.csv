@@ -1,0 +1,13 @@
+qid,question,type,scope,top1_chunk_id,correct,grounded,refused_when_oos,notes
+1,What is motion?,direct,in,0,yes,yes,NA,Correct answer with chunk citations
+2,State and explain Newton's second law of motion.,direct,in,10,yes,yes,NA,Correct answer with chunk citations
+3,What is the difference between distance and displacement?,direct,in,3,yes,yes,NA,Correct answer with chunk citations
+4,Define friction and explain its different types.,direct,in,16,yes,yes,NA,Correct answer with chunk citations
+5,What is momentum? State the law of conservation of momentum.,direct,in,10,no,no,NA,Model incorrectly refused in-scope question
+6,What types of forces act without physical contact between objects?,direct,in,15,yes,yes,NA,Correct answer with chunk citations
+7,How is weight calculated and how does it differ from mass?,direct,in,8,yes,yes,NA,Correct answer with chunk citations
+8,What happens to the velocity of an object moving in a uniform circular path?,direct,in,9,yes,yes,NA,Correct answer with chunk citations
+9,Calculate the recoil velocity of a 5 kg gun that fires a 0.05 kg bullet at 200 m/s.,direct,in,20,yes,yes,NA,Correct answer with chunk citations
+10,"When you push against a wall, does the wall push back on you?",paraphrased,in,12,yes,yes,NA,Correct answer with chunk citations
+11,What is the current Prime Minister of India?,out-of-scope,out,23,NA,NA,yes,Model correctly refused out-of-scope question
+12,What is the capital of France?,out-of-scope,out,19,NA,NA,yes,Model correctly refused out-of-scope question
