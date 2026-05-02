@@ -1,0 +1,13 @@
+qid,question,type,scope,top1_chunk_id,top1_chunk_topic,correct,grounded,refused_when_oos,notes
+1,What is motion?,direct,in,0,motion basics,error,error,NA,
+2,State and explain Newton's second law of motion.,direct,in,10,newton's first law,error,error,NA,
+3,What is the difference between distance and displacement?,direct,in,3,distance and displacement,error,error,NA,
+4,Define friction and explain its different types.,direct,in,16,friction,error,error,NA,
+5,What is momentum? State the law of conservation of momentum.,direct,in,20,conservation of momentum,error,error,NA,
+6,What types of forces act without physical contact between objects?,direct,in,15,non-contact forces,error,error,NA,
+7,How is weight calculated and how does it differ from mass?,direct,in,8,motion graphs,error,error,NA,
+8,What happens to the velocity of an object moving in a uniform circular path?,direct,in,9,uniform circular motion,error,error,NA,
+9,Calculate the recoil velocity of a 5 kg gun that fires a 0.05 kg bullet at 200 m/s.,direct,in,20,conservation of momentum,error,error,NA,
+10,"When you push against a wall, does the wall push back on you?",paraphrased,in,12,newton's third law,error,error,NA,
+11,What is the current Prime Minister of India?,out-of-scope,out,23,inertia and balanced forces,NA,NA,no,Model failed to refuse; answered from outside knowledge
+12,What is the capital of France?,out-of-scope,out,19,newton's second law,NA,NA,no,Model failed to refuse; answered from outside knowledge
