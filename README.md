@@ -58,7 +58,7 @@ parishiksha-rag-v2/
 
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
+
 
 ### 2. Download NCERT PDFs
 
@@ -74,7 +74,6 @@ Create `.env` in the project root:
 
 ```bash
 OPENAI_API_KEY=sk-...           # for text-embedding-3-small
-ANTHROPIC_API_KEY=sk-ant-...    # for claude-haiku-4-5 (or use OpenRouter)
 XAI_API_KEY=xai-...             # optional, if still using Grok from v1
 ```
 
@@ -94,9 +93,6 @@ python src/generation.py --test
 python src/evaluation.py
 ```
 
-**Output:** All evidence files appear in `outputs/` directory.
-
----
 
 ## Evaluation Results
 
@@ -257,7 +253,6 @@ ensemble = EnsembleRetriever(
     retrievers=[bm25_retriever, chroma_retriever],
     weights=[0.4, 0.6]  # tuned on 10-Q dev set
 )
-```
 
 ### Reranking (Cohere with Fallback)
 ```python
@@ -291,8 +286,6 @@ By completing v2.0, you've practiced:
 ✅ **Production-shaped thinking** — citation format, metadata, cost discipline
 
 These are the skills that separate engineers who demo from engineers who ship.
-
----
 
 ## References
 
