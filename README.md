@@ -1,4 +1,4 @@
-<![CDATA[# PariShiksha — Retrieval-Augmented Study Assistant
+***PariShiksha — Retrieval-Augmented Study Assistant***
 
 **Production-Grade RAG System for NCERT Class 9 Science (Chapters 8 & 9)**
 
