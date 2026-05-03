@@ -1,0 +1,31 @@
+qid,question,faithfulness,answer_relevancy,context_precision,context_recall
+1,What is motion?,1.000,0.954,1.000,1.000
+2,State and explain Newton's second law of motion.,1.000,0.982,1.000,1.000
+3,What is the difference between distance and displacement?,1.000,0.915,1.000,1.000
+4,Define friction and explain its different types.,1.000,0.965,1.000,1.000
+5,What is momentum? State the law of conservation of momentum.,0.650,0.720,0.500,0.000
+6,What types of forces act without physical contact between objects?,1.000,0.930,1.000,1.000
+7,How is weight calculated and how does it differ from mass?,1.000,0.890,1.000,1.000
+8,What happens to the velocity of an object moving in a uniform circular path?,1.000,0.945,1.000,1.000
+9,Calculate the recoil velocity of a 5 kg gun that fires a 0.05 kg bullet at 200 m/s.,1.000,0.990,1.000,1.000
+10,"When you push against a wall, does the wall push back on you?",1.000,0.970,1.000,1.000
+11,What is a scalar quantity? Give two examples.,1.000,0.910,1.000,1.000
+12,Define acceleration and state its SI unit.,1.000,0.960,1.000,1.000
+13,What does the slope of a distance-time graph represent?,1.000,0.940,1.000,1.000
+14,What does the area under a velocity-time graph represent?,1.000,0.950,1.000,1.000
+15,Is it possible for an object to have zero displacement but non-zero distance?,1.000,0.980,1.000,1.000
+16,Explain balanced and unbalanced forces with examples.,1.000,0.925,1.000,1.000
+17,Why do passengers fall forward when a moving bus suddenly stops?,1.000,0.975,1.000,1.000
+18,Why is it advised to tie luggage kept on the roof of a bus?,1.000,0.965,1.000,1.000
+19,State Newton's first law of motion.,1.000,0.985,1.000,1.000
+20,What is inertia? How is it related to mass?,1.000,0.945,1.000,1.000
+21,Why does a fielder pull his hands backwards while catching a fast-moving cricket ball?,1.000,0.955,1.000,1.000
+22,State Newton's third law of motion.,1.000,0.990,1.000,1.000
+23,How does a rocket work?,0.850,0.820,0.500,0.500
+24,What is the law of conservation of momentum?,0.900,0.880,1.000,0.666
+25,A force of 5 N produces an acceleration of 8 m/s² on a mass m1. Find m1.,1.000,0.950,1.000,1.000
+26,Which has more inertia: a bicycle or a train?,1.000,0.980,1.000,1.000
+27,What happens to a stone tied to a string and whirled in a circle if the string breaks?,1.000,0.940,1.000,1.000
+28,Is uniform circular motion an accelerated motion?,1.000,0.960,1.000,1.000
+29,Can the average speed of a moving object be zero?,1.000,0.970,1.000,1.000
+30,If action is always equal to the reaction, explain how a horse can pull a cart.,0.800,0.850,0.666,0.500
